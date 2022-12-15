@@ -1,13 +1,13 @@
-import { Replace } from "src/helpers/Replace";
-import { Content } from "./Content";
-import { randomUUID } from "node:crypto";
+import { Replace } from 'src/helpers/Replace';
+import { Content } from './Content';
+import { randomUUID } from 'node:crypto';
 
 interface NotificationProps {
   recipientId: string;
   content: Content;
   category: string;
   readAt?: Date | null;
-  createdAt: Date; 
+  createdAt: Date;
 }
 
 export class Notification {

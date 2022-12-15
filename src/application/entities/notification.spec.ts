@@ -1,5 +1,5 @@
-import { Content } from "./Content"
-import { Notification } from "./Notification";
+import { Content } from './Content';
+import { Notification } from './Notification';
 
 describe('Notification', () => {
   it('should be able to create notification', () => {
@@ -9,8 +9,7 @@ describe('Notification', () => {
       recipientId: 'example-recipient-id',
       createdAt: new Date(),
     });
- 
+
     expect(notification).toBeTruthy();
   });
-
 });
